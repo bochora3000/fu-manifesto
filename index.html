@@ -10,12 +10,21 @@
             background-color: #121212;
             color: #ffffff;
             margin: 0;
-            padding: 20px;
+            padding: 0;
             text-align: center;
             background-image: url('images/background.png');
             background-size: cover;
             background-position: center;
             background-attachment: fixed;
+        }
+
+        .content-wrapper {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 30px;
+            background: rgba(0, 0, 0, 0.8); /* Dark semi-transparent background */
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
         }
 
         h1, h2 {
@@ -28,7 +37,7 @@
 
         h2 {
             font-size: 2em;
-            margin-top: 60px;
+            margin-top: 40px;
         }
 
         p {
@@ -59,56 +68,58 @@
 </head>
 <body>
 
-    <div class="section">
-        <h1>🚨 Manifesto for F.U. Software Development 🚨</h1>
-        <p>We are uncovering the most <strong>painful, dysfunctional, and soul-crushing</strong> ways to build software.</p>
-        <p>Through our suffering, we have come to value:</p>
-        <p>🤡 <strong>Bureaucracy and manipulation</strong> over individuals and interactions 🤝</p>
-        <p>📜 <strong>Eternal, mind-numbing documentation</strong> over working software 💻</p>
-        <p>⚖️ <strong>Legal battles, approval chains, and corporate politics</strong> over customer collaboration 🤷</p>
-        <p>📅 <strong>A rigid, outdated, and untouchable roadmap</strong> over responding to change 🔄</p>
-        <p><strong>That is, while the items on the right could be useful, we actively reject them to ensure maximum inefficiency, frustration, and despair.</strong></p>
-    </div>
+    <div class="content-wrapper">
+        <div class="section">
+            <h1>🚨 Manifesto for F.U. Software Development 🚨</h1>
+            <p>We are uncovering the most <strong>painful, dysfunctional, and soul-crushing</strong> ways to build software.</p>
+            <p>Through our suffering, we have come to value:</p>
+            <p>🤡 <strong>Bureaucracy and manipulation</strong> over individuals and interactions 🤝</p>
+            <p>📜 <strong>Eternal, mind-numbing documentation</strong> over working software 💻</p>
+            <p>⚖️ <strong>Legal battles, approval chains, and corporate politics</strong> over customer collaboration 🤷</p>
+            <p>📅 <strong>A rigid, outdated, and untouchable roadmap</strong> over responding to change 🔄</p>
+            <p><strong>That is, while the items on the right could be useful, we actively reject them to ensure maximum inefficiency, frustration, and despair.</strong></p>
+        </div>
 
-    <div class="section">
-        <h2>✍️ Signed by These Visionary Supreme Commanders</h2>
-        <ul class="signature-list">
-            <li class="signature">Joseph Stalmanin 🤡</li>
-            <li class="signature">Adolf Gitler 🚀</li>
-            <li class="signature">Kim Code Un 💻</li>
-            <li class="signature">Mussolinux 🏴‍☠️</li>
-            <li class="signature">Vlad Commitin 🩸</li>
-            <li class="signature">Pol Push 🚷</li>
-            <li class="signature">Saddam Stacksein 💣</li>
-            <li class="signature">Elon Muskovich 🛰️</li>
-            <li class="signature">Mark Zuckerschmuck 🕵️‍♂️</li>
-            <li class="signature">Jeff Benzos 🤖</li>
-            <li class="signature">Bill Gatekeeper 🔒</li>
-            <li class="signature">Steve Jobless 🍏</li>
-        </ul>
-    </div>
+        <div class="section">
+            <h2>✍️ Signed by These Visionary Supreme Commanders</h2>
+            <ul class="signature-list">
+                <li class="signature">Joseph Stalmanin 🤡</li>
+                <li class="signature">Adolf Gitler 🚀</li>
+                <li class="signature">Kim Code Un 💻</li>
+                <li class="signature">Mussolinux 🏴‍☠️</li>
+                <li class="signature">Vlad Commitin 🩸</li>
+                <li class="signature">Pol Push 🚷</li>
+                <li class="signature">Saddam Stacksein 💣</li>
+                <li class="signature">Elon Muskovich 🛰️</li>
+                <li class="signature">Mark Zuckerschmuck 🕵️‍♂️</li>
+                <li class="signature">Jeff Benzos 🤖</li>
+                <li class="signature">Bill Gatekeeper 🔒</li>
+                <li class="signature">Steve Jobless 🍏</li>
+            </ul>
+        </div>
 
-    <div class="section">
-        <h2>🔥 The F.U. Principles 🔥</h2>
-        <p>We pledge to uphold these <strong>12 commandments of dysfunction</strong>:</p>
-        <p>🛑 <strong>Cover your ass first.</strong> Our highest priority is not delivering software but making sure no one can blame us when things fail.</p>
-        <p>🐌 <strong>Delay everything indefinitely.</strong> The only good software is perfect software, which means it should never ship.</p>
-        <p>🚷 <strong>Developers and businesses must never communicate.</strong> All discussions must be funneled through a labyrinth of requirement documents written by people who don’t code.</p>
-        <p>🗿 <strong>Change is evil.</strong> Everything must be decided upfront, locked in stone, and never revisited. If the market shifts, that's their problem.</p>
-        <p>🤖 <strong>Developers are disposable.</strong> They should follow orders, not think. Creativity leads to inefficiency.</p>
-        <p>📚 <strong>If it’s documented, it’s done.</strong> Whether or not the software works is irrelevant—if the documentation is 500 pages, we call it a success.</p>
-        <p>🐢 <strong>Approval processes must be excruciating.</strong> If a request doesn’t take at least six months and involves three different committees, something went wrong.</p>
-        <p>🚀 <strong>Releases should be feared.</strong> Launches only invite criticism. The true goal is an eternal beta where nothing is ever final.</p>
-        <p>👑 <strong>Decisions must be made by those farthest from the problem.</strong> Preferably by an executive who hasn't coded since the 90s.</p>
-        <p>🙉 <strong>Users are the problem, not the software.</strong> If customers struggle, it's because they’re too stupid to use our perfect system.</p>
-        <p>📊 <strong>Architecture by committee.</strong> The best designs come from endless meetings, PowerPoints, and consultants who have never shipped a product.</p>
-        <p>⚰️ <strong>Failure is an opportunity… to add more processes.</strong> Every sprint should end with a post-mortem on why the team failed, followed by adding more bureaucracy to guarantee even worse failure next time.</p>
-        <p>🚫 <strong>Agile is for weaklings.</strong> True professionals drown in red tape, worship process over progress, and take pride in how much pain they can inflict on themselves and their teams.</p>
-    </div>
+        <div class="section">
+            <h2>🔥 The F.U. Principles 🔥</h2>
+            <p>We pledge to uphold these <strong>12 commandments of dysfunction</strong>:</p>
+            <p>🛑 <strong>Cover your ass first.</strong> Our highest priority is not delivering software but making sure no one can blame us when things fail.</p>
+            <p>🐌 <strong>Delay everything indefinitely.</strong> The only good software is perfect software, which means it should never ship.</p>
+            <p>🚷 <strong>Developers and businesses must never communicate.</strong> All discussions must be funneled through a labyrinth of requirement documents written by people who don’t code.</p>
+            <p>🗿 <strong>Change is evil.</strong> Everything must be decided upfront, locked in stone, and never revisited. If the market shifts, that's their problem.</p>
+            <p>🤖 <strong>Developers are disposable.</strong> They should follow orders, not think. Creativity leads to inefficiency.</p>
+            <p>📚 <strong>If it’s documented, it’s done.</strong> Whether or not the software works is irrelevant—if the documentation is 500 pages, we call it a success.</p>
+            <p>🐢 <strong>Approval processes must be excruciating.</strong> If a request doesn’t take at least six months and involves three different committees, something went wrong.</p>
+            <p>🚀 <strong>Releases should be feared.</strong> Launches only invite criticism. The true goal is an eternal beta where nothing is ever final.</p>
+            <p>👑 <strong>Decisions must be made by those farthest from the problem.</strong> Preferably by an executive who hasn't coded since the 90s.</p>
+            <p>🙉 <strong>Users are the problem, not the software.</strong> If customers struggle, it's because they’re too stupid to use our perfect system.</p>
+            <p>📊 <strong>Architecture by committee.</strong> The best designs come from endless meetings, PowerPoints, and consultants who have never shipped a product.</p>
+            <p>⚰️ <strong>Failure is an opportunity… to add more processes.</strong> Every sprint should end with a post-mortem on why the team failed, followed by adding more bureaucracy to guarantee even worse failure next time.</p>
+            <p>🚫 <strong>Agile is for weaklings.</strong> True professionals drown in red tape, worship process over progress, and take pride in how much pain they can inflict on themselves and their teams.</p>
+        </div>
 
-    <div class="section">
-        <h2>💀 Welcome to the F.U. Agile Era. 💀</h2>
-        <p><strong>Made with 🖤 and 🖕 hate by Irakli Bochorishvili</strong></p>
+        <div class="section">
+            <h2>💀 Welcome to the F.U. Agile Era. 💀</h2>
+            <p><strong>Made with 🖤 and 🖕 hate by Irakli Bochorishvili</strong></p>
+        </div>
     </div>
 
 </body>
