@@ -64,6 +64,30 @@
         .section {
             margin-bottom: 50px;
         }
+
+        /* Mobile responsiveness */
+        @media (max-width: 768px) {
+            .signature-list {
+                grid-template-columns: 1fr; /* Stack signatures vertically */
+                max-width: 100%;
+            }
+
+            h1 {
+                font-size: 2em;
+            }
+
+            h2 {
+                font-size: 1.5em;
+            }
+
+            p {
+                font-size: 1em;
+            }
+
+            .content-wrapper {
+                padding: 20px;
+            }
+        }
     </style>
 </head>
 <body>
